@@ -26,7 +26,7 @@ alert("账号或密码不能为空")
     main.value = true;
   }
   else{
-    alert("账号或密码错误")
+    alert("请输入admin 123456")
   }
     
 }
@@ -48,7 +48,7 @@ function click3() {
 </script>
 
 <template>
-   <RouterView></RouterView>
+   <!-- <RouterView></RouterView> -->
   <div v-show="dl">
     <div class="block text-center">
       <el-carousel>
