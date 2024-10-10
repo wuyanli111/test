@@ -1,14 +1,14 @@
-import { createMemoryHistory, createRouter } from "vue-router"
+import { createMemoryHistory, createRouter } from "vue-router";
 
-import dlView from "../view/dlView.vue"
-import Main from "../view/Main.vue"
+import dlview from "../views/dlView.vue";
+import Main from "../views/Main.vue";
 
 const routes = [
-  { path: "/", component: dlView },
-  { path: "/main", component: Main},
-]
+  { path: "/", component: dlview },
+  { path: "/main", component: Main },
+];
 
 const router = createRouter({
   history: createMemoryHistory(),
   routes,
-})
+});
